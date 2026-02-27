@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kubik</title>
+<style>
+body {
+margin:0;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+font-size:160px;
+font-family:Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+<script>
+const faces = ["+", "-", "+/-", "•"];
+document.write(faces[Math.floor(Math.random()*faces.length)]);
+</script>
+</body>
+</html>
